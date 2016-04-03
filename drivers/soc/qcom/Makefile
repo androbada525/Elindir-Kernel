@@ -97,3 +97,4 @@ obj-$(CONFIG_SERIAL_NUM) += serial_num.o
 obj-$(CONFIG_STATE_NOTIFIER) += state_notifier.o
 obj-$(CONFIG_INTELLI_HOTPLUG) += intelli_hotplug.o
  obj-$(CONFIG_MSM_HOTPLUG) += msm_hotplug.o
+obj-$(CONFIG_BRICKED_HOTPLUG) += bricked_hotplug.o
