@@ -112,5 +112,3 @@ obj-$(CONFIG_XOR_BLOCKS) += xor.o
 obj-$(CONFIG_ASYNC_CORE) += async_tx/
 obj-$(CONFIG_ASYMMETRIC_KEY_TYPE) += asymmetric_keys/
 obj-$(CONFIG_CRYPTO_ABLK_HELPER) += ablk_helper.o
-# Squeeze a little bit more juice from GCC
- ccflags-y := -O3
