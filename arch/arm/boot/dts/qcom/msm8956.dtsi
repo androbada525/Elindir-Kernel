@@ -236,6 +236,7 @@
 			< 480000000   7 >,  /* Turbo     */
 			< 550000000   8 >,  /* Super Turbo */
 			< 621330000   9 >;  /* Super Turbo */
+			< 710000000   9 >;  /* Super Turbo PLUS */
 		qcom,gfxfreq-corner-v1 =
 			<         0   0 >,
 			< 133333333   1 >,  /* Min SVS   */
