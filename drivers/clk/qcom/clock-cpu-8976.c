@@ -141,7 +141,7 @@ static struct pll_clk a72ss_hf_pll = {
 		.vco_mode_masked = BVAL(21, 20, 1),
 	},
 	.base = &virt_bases[APCS_C1_PLL_BASE],
-	.max_rate = 1843200000,
+	.max_rate = 2100000000,
 	.min_rate = 940800000,
 	.c = {
 		.parent = &xo_a_clk.c,
@@ -261,6 +261,7 @@ static struct mux_div_clk a72ssmux = {
 	},
 	.c = {
 		.dbg_name = "a72ssmux",
+		.flags = CLKFLAG_NO_RATE_CACHE,
 		.ops = &clk_ops_mux_div_clk,
 		CLK_INIT(a72ssmux.c),
 	},
@@ -285,6 +286,7 @@ static struct mux_div_clk a53ssmux = {
 	},
 	.c = {
 		.dbg_name = "a53ssmux",
+		.flags = CLKFLAG_NO_RATE_CACHE,
 		.ops = &clk_ops_mux_div_clk,
 		CLK_INIT(a53ssmux.c),
 	},
