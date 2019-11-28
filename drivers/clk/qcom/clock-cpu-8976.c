@@ -186,7 +186,7 @@ static struct pll_clk a53ss_sr_pll = {
 		.config_ctl_val = 0x00141400,
 	},
 	.min_rate = 652800000,
-	.max_rate = 1478400000,
+	.max_rate = 1550000000,
 	.base = &virt_bases[APCS_C0_PLL_BASE],
 	.c =  {
 		.parent = &xo_a_clk.c,
