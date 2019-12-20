@@ -25,8 +25,8 @@ index 654ab2df7fca..0f8e9fe0b828 100755
  ## AnyKernel setup
  # begin properties
  properties() { '
--kernel.string=Escrima-X28-Kamui-LightningBlade-PurpleLightning
-+kernel.string=Escrima-X28-Kamui-LightningBlade-PurpleLightning-OldJackFix
+-kernel.string=Elindir-v2
++kernel.string=Elindir-v2-jack-fix
  do.devicecheck=1
  do.modules=0
  do.cleanup=1
@@ -38,8 +38,8 @@ index 5a155859a845..1764de80eec3 100644
  Anykernel_DIR=$KERNEL_DIR/AnyKernel3/
  DATE=$(date +"%d%m%Y")
  TIME=$(date +"-%H.%M.%S")
--KERNEL_NAME="Escrima-X28-Kamui-LightningBlade-PurpleLightning"
-+KERNEL_NAME="Escrima-X28-Kamui-LightningBlade-PurpleLightning-OldJackFix"
+-KERNEL_NAME="Elindir-v2"
++KERNEL_NAME="Elindir-v2"
  DEVICE="-kenzo-"
  FINAL_ZIP="$KERNEL_NAME""$DEVICE""$DATE""$TIME"
  
@@ -467,3 +467,4 @@ index be1e38090ff4..fdbb21db9faf 100644
  	bool skip_imped_detection;
  	bool is_btn_already_regd;
  
+
