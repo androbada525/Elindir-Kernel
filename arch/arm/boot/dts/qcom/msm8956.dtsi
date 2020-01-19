@@ -229,8 +229,8 @@
 			< 366670000   5 >,  /* SVS Plus  */
 			< 432000000   6 >,  /* NOM       */
 			< 480000000   7 >,  /* Turbo     */
-			< 550000000   8 >,  /* Super Turbo */
-			< 710000000   9 >;  /* Super Turbo */
+			< 690000000   8 >,  /* Super Turbo */
+			< 805000000   9 >;  /* Super Turbo */
 		#clock-cells = <1>;
 	};
 
