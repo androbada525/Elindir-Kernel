@@ -36,7 +36,7 @@
 /* Tuneables */
 #define WG_DEBUG		0
 #define WG_DEFAULT		0
-#define DT2W_DEFAULT		0
+#define DT2W_DEFAULT		1
 #define S2W_DEFAULT		0
 #define S2S_DEFAULT		0
 #define WG_PWRKEY_DUR           60
