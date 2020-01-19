@@ -284,7 +284,7 @@ struct kcal_lut_data *lut_cpy;
 
 struct mdss_mdp_ctl *fb0_ctl = 0;
 
-static int mdss_mdp_kcal_store_fb0_ctl(void)
+inline static int mdss_mdp_kcal_store_fb0_ctl(void)
 {
 	int i;
 	struct mdss_mdp_ctl *ctl;
