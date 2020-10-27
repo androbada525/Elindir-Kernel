@@ -123,7 +123,7 @@ config IOSCHED_SIOPLUS
 
 choice
 	prompt "Default I/O scheduler"
-	default DEFAULT_CFQ
+	default DEFAULT_ZEN
 	help
 	  Select the I/O scheduler which will be used by default for all
 	  block devices.
