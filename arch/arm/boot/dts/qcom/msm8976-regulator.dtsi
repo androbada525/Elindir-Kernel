@@ -386,8 +386,8 @@
 
 		qcom,cpr-fuse-corners = <3>;
 
-		qcom,cpr-voltage-ceiling = <950000 1050000 1165000>;
-		qcom,cpr-voltage-floor =   <795000  835000  930000>;
+		qcom,cpr-voltage-ceiling = <865000 965000 1080000>;
+		qcom,cpr-voltage-floor =   <710000  755000  845000>;
 
 		vdd-apc-supply = <&pm8950_s5>;
 
@@ -439,7 +439,7 @@
 		qcom,speed-bin-fuse-sel = <37 34 3 0>;
 
 
-		qcom,cpr-init-voltage-ref = <950000 1050000 1165000>;
+		qcom,cpr-init-voltage-ref = <865000 965000 1080000>;
 		qcom,cpr-init-voltage-step = <10000>;
 
 		qcom,cpr-corner-map = <1 1 2 2 3 3 3 3 3>;
@@ -472,8 +472,8 @@
 			<0 37 150>, /* NOM + 15mv, TURBO + 60mv */
 			<0  0   0>;
 		qcom,cpr-voltage-floor-override =
-			<(-1) (-1) 795000 795000 835000 855000
-			945000 945000 990000 990000 1000000>;
+			<(-1) (-1) 710000 710000 750000 770000
+			860000 860000 905000 905000 905000>;
 
 		qcom,cpr-enable;
 	};
@@ -491,8 +491,8 @@
 
 
 
-		qcom,cpr-voltage-ceiling = <950000 1050000 1165000>;
-		qcom,cpr-voltage-floor =   <790000  820000  915000>;
+		qcom,cpr-voltage-ceiling = <865000 965000 1080000>;
+		qcom,cpr-voltage-floor =   <705000  735000  839000>;
 
 		vdd-apc-supply = <&pm8004_s2>;
 
@@ -544,7 +544,7 @@
 		qcom,cpr-fuse-revision = <59 53 3 0>;
 		qcom,speed-bin-fuse-sel = <37 34 3 0>;
 
-		qcom,cpr-init-voltage-ref = <950000 1050000 1165000>;
+		qcom,cpr-init-voltage-ref = <865000 965000 1080000>;
 		qcom,cpr-init-voltage-step = <10000>;
 
 		qcom,cpr-corner-map = <1 1 2 2 3 3 3 3 3>;
@@ -576,8 +576,8 @@
 			<0 (-37) 0>, /* NOM - 15mv */
 			<0    0  0>;
 		qcom,cpr-voltage-floor-override =
-			<(-1) (-1) 790000 790000 820000 850000
-			940000 970000 970000 1000000 1040000>;
+			<(-1) (-1) 705000 705000 735000 765000
+			855000 905000 905000>;
 		qcom,cpr-enable;
 	};
 
@@ -610,8 +610,8 @@
 		regulator-max-microvolt = <9>;
 
 		qcom,cpr-voltage-ceiling =
-				<780000 850000 885000 930000 990000
-				1030000 1100000 1150000 1160000>;
+				<765000 820000 855000 905000 965000
+				1005000 1065000 1120000 1120000>;
 		qcom,cpr-voltage-floor =
 				<710000 725000 740000 770000 830000
 				840000 950000 1010000 1075000>;
@@ -646,8 +646,8 @@
 		qcom,cpr-gfx-volt-step = <5000>;
 
 		qcom,cpr-init-voltage-ref =
-				<850000 855000 935000 940000 945000
-				1020000 1030000 1150000 1160000>;
+				<820000 820000 905000 905000 905000
+				1005000 1005000 1125000 1125000>;
 		qcom,cpr-fuse-init-voltage =
 					<72 50 5>,
 					<72 50 5>,
