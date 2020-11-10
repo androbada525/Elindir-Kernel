@@ -33,7 +33,7 @@ rm -rf arch/arm64/boot/Image.gz-dtb
 # Export few variables
 export KBUILD_BUILD_USER="KrittinKalra"
 export KBUILD_BUILD_HOST="Nightingale"
-export CROSS_COMPILE=/usr/bin/aarch64-linux-gnu-
+export CROSS_COMPILE=/home/krittinkalra/Downloads/gcc-linaro-6.5.0-2018.12-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-
 export ARCH="arm64"
 export USE_CCACHE=1
 
