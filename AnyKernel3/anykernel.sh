@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Elindir-v6-jack-fix
+kernel.string=Elindir-v6.1-jack-fix
 do.devicecheck=1
 do.modules=0
 do.systemless=1
